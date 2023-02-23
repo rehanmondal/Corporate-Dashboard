@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>COMPANY DASHBOARD</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="icon" type="image/png" sizes="48x48" href="{{ url_for('static', filename='img/rehan_fav.ico') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="{{ url_for('static', filename='js/bar.js') }}"></script>
+
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>DASHBOARD</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="/">Our Company</a></li>
+        <li><a href="/newregistration" target="_blank">Create New Profile</a></li>
+        <li><a href="/update" target="_blank">Update Your Profile</a></li>
+        <li><a href="/view" >View Your Profile</a></li>
+        <li><a href="/delete">Delete Your Account</a></li>
+        <li><a href="/admin" target="_blank">Admin Login</a></li>
+      </ul><br>
+    </div>
+
+    <div class="col-sm-9">
+      <h4 align="center"><u>This Month</u></h4>
+      <hr>
+
+      <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+    <hr>
+      <div class="col-sm-9">
+
+        <h3>About The Instruction:</h3>
+        <h5><u>By the Authority</u></h5>
+
+        <p>Every user/Employee/Staff who are using the software are must need to login with theire proper Company ID and After doing Necessary must advice to Logout
+        with taking care of your Sensitive Employement Details and.
+        <br>Make Sure that You are changing all the data with Proper Guidline as per the Companies Terms and Condition.</p>
+        <br><br>
+
+        <h4>Staffs Support :</h4>
+        <form role="form" method="post" >
+          <div class="form-group">
+            <textarea class="form-control" rows="3" id="message" name="message" placeholder="Please put your name and ID at first then put your comment.." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div id="div1">
+    <p>&nbsp;</p>Registered Office Address: <br> Garia Boral, <br>South 24 PGS,Narendrapur,<br> 700103
+
+  </div >
+  <div id="div2">
+    <p>&nbsp;</p>
+    Whatsup: +91 0123456789<br>
+    <a href=“tel:6290120000”>Phone : +91 6290120000</a><br>
+    <a href=“mail:mondrehanmondalaldemo1@gmail.com”>mail : rehanmondal@gmail.com</a><br>
+    Toll Free No.: 1800-121-2135
+
+  </div>
+  <div id="div3">
+    <p>&nbsp;</p>&#x2713;AI & ML, UI/UX <br>&#x2713;Cloud - Data, <br>&#x2713;Web App - Web Hosting<br>&#x2713;Androide - Software
+  </div>
+</footer>
+</body>
+</html>

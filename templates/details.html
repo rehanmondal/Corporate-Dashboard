@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ url_for('static', filename='img/rehan_fav.ico') }}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <title>Details</title>
+</head>
+<body>
+     <div style="padding:40px">
+        <table id="customers">
+              <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>PHONE</th>
+                <th>UPDATE</th>
+                <th>DELEET</th>
+
+              </tr>
+            {% for user in details %}
+            <tr>
+                <td>{{user[0]}}</td>
+                <td>{{user[1]}}</td>
+                <td>{{user[2]}}</td>
+                <td align="center"><a href="/admin_update/{{user[0]}}" target="_blank"> <button class="w3-button w3-blue-grey">Update</button></a></td>
+                <td align="center"><a href="/details/{{user[0]}}" target="_blank"><button class="w3-button w3-teal">Delete</button></a></td>
+            </tr>
+            {% endfor %}
+        </table>
+     </div>
+    <div align="center" style="padding:15px">
+        <a href="/"><button type="submit" class="w3-button w3-black">Log Out</button></a>
+    </div>
+
+</body>
+</html>

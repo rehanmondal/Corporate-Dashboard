@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ url_for('static', filename='img/rehan_fav.ico') }}">
+
+    <meta charset="UTF-8">
+    <title>Update Profile</title>
+</head>
+<body>
+     <div class="container">
+        <div class="containerleft">
+          <form action="/update" method="post" style="padding-top:22px">
+            <label for="uid">Enter Your Registration ID</label>
+            <input type="password" id="uid" name="uid" required >
+            <label for="uname">Enter Updated Name </label>
+            <input type="text" id="uname" name="uname" required>
+            <label for="uphone">Enter Updated Phone </label>
+            <input type="tel" id="uphone" name="uphone" required pattern="[0-9]{10}">
+            <button type="submit" class="w3-button w3-black">Update</button>
+
+          </form>
+            <p>Back To Dashboard</p>
+            <a href="/"><button type="submit" class="w3-button w3-black">Logout</button></a>
+          </div>
+     </div>
+     <div class="containerright ">
+        <img src="{{ url_for('static', filename='img/add3.jpg') }}" alt="add3" width="400" height="300">
+        <img src="{{ url_for('static', filename='img/add4.jpg') }}" alt="add4" width="400" height="300">
+    </div>
+</body>
+</html>

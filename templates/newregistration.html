@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ url_for('static', filename='img/rehan_fav.ico') }}">
+    <title>New Profile</title>
+
+</head>
+<body>
+    <script>
+        function registration() {
+          let text = "Your ID created Successfully";
+          if (confirm(text) == true) {
+            text = "You pressed OK!";
+          } else {
+            text = "You canceled!";
+          }
+          document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+    <div class="container">
+        <div class="containerright">
+          <form action="/newregistration" method="post">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="0123456789 " pattern="[0-9]{10}" required>
+
+            <!-- <input type="submit" value="Submit"> -->
+            <button type="submit" class="w3-button w3-black" onclick="registration()">Submit</button>
+            <h5>Generated ID is :[ {{id}} ] Keep this ID Private for furthur Login</h5>
+
+          </form>
+            <hr>
+            <p>Do Not Want To Create Account Yet? Click here To Go to Dashboard :</p>
+            <a href="/"><button type="submit" class="w3-button w3-black">Exit</button></a>
+        </div>
+
+         <div class="containerleft ">
+            <img src="{{ url_for('static', filename='img/add1.jpg') }}" alt="Trulli" width="400" height="300">
+            <img src="{{ url_for('static', filename='img/add2.jpg') }}" alt="Trulli1" width="400" height="300">
+        </div>
+    </div>
+
+</body>
+</html>

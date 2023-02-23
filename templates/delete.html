@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ url_for('static', filename='img/rehan_fav.ico') }}">
+    <meta charset="UTF-8">
+    <title>Delete Account</title>
+</head>
+<body>
+    <div class="container">
+            <div class="containerright">
+              <form action="/delete" method="post" style="padding-top:22px" >
+                <label for="del_id">Enter Your Registration ID</label>
+                <input type="password" id="del_id" name="del_id" required>
+                <button type="submit" class="w3-button w3-black">Delete</button>
+
+              </form>
+                <p>Back To Dashboard</p>
+                <a href="/"><button type="submit" class="w3-button w3-black">Logout</button></a>
+                <hr color="red">
+            </div>
+             <div class="containerleft ">
+                <img src="{{ url_for('static', filename='img/add5.jpg') }}" alt="add3" width="400" height="300">
+                <img src="{{ url_for('static', filename='img/add4.jpg') }}" alt="add4" width="400" height="300">
+
+            </div>
+        </div>
+</body>
+</html>

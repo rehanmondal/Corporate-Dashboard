@@ -1,0 +1,139 @@
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width:100%; 				/* Full width */
+  padding: 8px; 				/* Some padding */ 
+  border: 1px solid #ccc; 			/* Gray border */
+  border-radius: 4px;			 /* Rounded borders */
+  box-sizing: border-box; 			/* Make sure that padding and width stays in place */
+  margin-top: 6px; 				/* Add a top margin */
+  margin-bottom: 16px; 			/* Bottom margin */
+  resize: vertical 				/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 15px;
+ width:100%;
+
+}
+.containerleft {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+.containerright {
+ margin-top:30px;
+  float: right;
+  width: 65%;
+  padding: 15px;
+}
+.container2 {
+ margin-top:30px;
+  width: 80%;
+  padding: 15px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){
+background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #82D7D2;
+  color: #002AC8;
+}
+
+
+    /*  ------------------------------------------------------------------------------------------------------*/
+
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 900px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;}
+    }
+    #div1{
+      background-color:#555;
+      width:33.33%;
+      float:left;
+
+    }
+    #div2{
+      background-color:#555;
+      width:33.33%;
+      float:right;
+
+    }
+    #div3{
+      background-color:#555;
+      width:33.33%;
+      margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
