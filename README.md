@@ -32,14 +32,14 @@ The Dashboard Contains :
     
 ## Appearance : 
 
-<p align="left"><img src="https://user-images.githubusercontent.com/125151906/221238481-702d6fcb-9b01-4fec-9b7a-e38380a82b0f.png" width="500" height="300">
-<img src="https://user-images.githubusercontent.com/125151906/221238493-27401ff8-e40a-4716-878b-8746fab7d985.png" width="500" height="300"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/125151906/221238481-702d6fcb-9b01-4fec-9b7a-e38380a82b0f.png" width="520" height="300"></p>
+<p align="right"><img src="https://user-images.githubusercontent.com/125151906/221238493-27401ff8-e40a-4716-878b-8746fab7d985.png" width="520" height="300"><p>
 
-<p align="left"><img src="https://user-images.githubusercontent.com/125151906/221238520-6c2fd3a2-9174-41cd-9559-666f2f8d655a.png" width="500" height="300">
-<img src="https://user-images.githubusercontent.com/125151906/221238924-a01bfacd-04ae-4b8e-bbd7-b5b02a32eaca.png" width="500" height="300"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/125151906/221238520-6c2fd3a2-9174-41cd-9559-666f2f8d655a.png" width="520" height="300"></p>
+<p align="right"><img src="https://user-images.githubusercontent.com/125151906/221238924-a01bfacd-04ae-4b8e-bbd7-b5b02a32eaca.png" width="520" height="300"></p>
 
-<p align="left"><img src="https://user-images.githubusercontent.com/125151906/221240754-10367e42-b0ed-4e62-a0fb-1195be1c639a.png" width="500" height="300">
-<img src="https://user-images.githubusercontent.com/125151906/221240760-ba951569-9892-4043-b54c-b43addcf0014.png" width="500" height="300"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/125151906/221240754-10367e42-b0ed-4e62-a0fb-1195be1c639a.png" width="520" height="300"></p>
+
 
 ## Requirements
 ✓ Flask ==2.2.2 <br>
@@ -66,7 +66,7 @@ Step - 4 : Run app.py file and the project will be launched.
 <img src="https://user-images.githubusercontent.com/125151906/221242966-e46bd027-a561-49d3-bc3f-97efffb6e072.png" width="620" height="400">
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                            THANKS TO GITHUB PLATFORM
+                                            THANKS TO GITHUB PLATFORM
 
 
 
