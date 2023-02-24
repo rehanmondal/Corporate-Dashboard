@@ -66,7 +66,7 @@ Step - 4 : Run app.py file and the project will be launched.
 <img src="https://user-images.githubusercontent.com/125151906/221242966-e46bd027-a561-49d3-bc3f-97efffb6e072.png" width="620" height="400">
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                            THANKS TO GITHUB PLATFORM
+                                                    THANKS TO GITHUB PLATFORM
 
 
 
